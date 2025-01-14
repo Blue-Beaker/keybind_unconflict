@@ -1,3 +1,5 @@
 ## KeybindUnconflict
-A patch mod for Minecraft, allowing conflicted keybindings to all work together.  
-Now you can bind all 'Mode Switch' keys in different mods to one key with them all work as intended.  
+A patch mod for Minecraft.
+
+Allows multiple keybinds to be bound on a same key and work.  
+Now you can have all Tool Mode Switch keybinds work on one key.  
