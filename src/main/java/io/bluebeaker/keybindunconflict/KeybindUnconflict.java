@@ -2,7 +2,6 @@ package io.bluebeaker.keybindunconflict;
 
 import org.apache.logging.log4j.Logger;
 
-import io.bluebeaker.keybindunconflict.Tags;
 import net.minecraft.server.MinecraftServer;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.config.ConfigManager;

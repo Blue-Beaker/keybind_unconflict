@@ -13,7 +13,7 @@ import java.util.EnumMap;
 @Mixin(value = KeyBindingMap.class,remap = false)
 public interface AccessorKeyBindingMap {
     @Accessor
-    public static EnumMap<KeyModifier, IntHashMap<Collection<KeyBinding>>> getMap(){
+    static EnumMap<KeyModifier, IntHashMap<Collection<KeyBinding>>> getMap(){
         throw new AssertionError();
-    };
+    }
 }

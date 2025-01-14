@@ -1,11 +1,9 @@
 package io.bluebeaker.keybindunconflict;
 
-import io.bluebeaker.keybindunconflict.mixin.AccessorKeyBinding;
 import io.bluebeaker.keybindunconflict.mixin.AccessorKeyBindingMap;
 import net.minecraft.client.settings.KeyBinding;
 import net.minecraftforge.client.settings.KeyModifier;
 
-import javax.annotation.Nullable;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
