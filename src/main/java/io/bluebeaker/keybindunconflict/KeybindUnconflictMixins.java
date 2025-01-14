@@ -8,11 +8,11 @@ import javax.annotation.Nullable;
 
 import net.minecraftforge.common.ForgeVersion;
 import net.minecraftforge.fml.relauncher.IFMLLoadingPlugin;
-import zone.rong.mixinbooter.ILateMixinLoader;
+import zone.rong.mixinbooter.IEarlyMixinLoader;
 
 @IFMLLoadingPlugin.Name("keybindunconflict")
 @IFMLLoadingPlugin.MCVersion(ForgeVersion.mcVersion)
-public class KeybindUnconflictMixins implements IFMLLoadingPlugin, ILateMixinLoader {
+public class KeybindUnconflictMixins implements IFMLLoadingPlugin, IEarlyMixinLoader {
 
     @Override
     public List<String> getMixinConfigs() {
